@@ -1,0 +1,22 @@
+/* CSS writtten by Kenny Gammage */
+
+/* GLOBAL STYLES (MOBILE FIRST) */
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+}
+@media (min-width: 600px) {
+    body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: blue;
+}
+}
+@media (min-width: 800px) {
+    body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: purple;
+}
+}
